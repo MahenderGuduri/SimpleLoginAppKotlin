@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_80">80dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="dim_30">30dp</dimen>
+    <dimen name="dim_15">15sp</dimen>
+    <dimen name="dim_50">50dp</dimen>
+    <dimen name="dim_200">200dp</dimen>
+    <dimen name="dim_300">300dp</dimen>
+    <dimen name="my24dp">24dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="size10">10sp</dimen>
+
+
+
+    <dimen name="dim_45">45dp</dimen>
+    <dimen name="edt_size">14sp</dimen>
+
+
+</resources>

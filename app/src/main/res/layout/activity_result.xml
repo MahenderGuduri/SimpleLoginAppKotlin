@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_300"
+                android:background="@drawable/ic_mainbg">
+
+                <ImageView
+                    android:id="@+id/img_back_otp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start"
+                    android:src="@drawable/ic_back" />
+
+                <ImageView
+                    android:id="@+id/img_reg"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/my_logo" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_reg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dim_30"
+                    android:fontFamily="@font/encodesans_semibold"
+                    android:text="Registration Success"
+                    android:textColor="@color/app_color"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+              android:layout_margin="@dimen/dim_20"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                   android:padding="@dimen/dim_10"
+                    android:id="@+id/btn_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim_45"
+                    android:background="@drawable/ic_regbg"
+                    android:fontFamily="@font/encodesans_semibold"
+                    android:text="Click here to Sign in"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
