@@ -29,7 +29,6 @@ class SpashScreenActivity : AppCompatActivity() {
 
 
     private fun performOperations() {
-
         onBackPressedDispatcher.addCallback(onBackPressedCallback)
         handler = Handler(Looper.getMainLooper())
         handler.postDelayed(Runnable {

@@ -67,11 +67,11 @@
                     android:layout_marginRight="@dimen/size10"
                     android:background="@drawable/ic_edittextbg"
                     android:digits="@string/alpha"
-                    android:drawableLeft="@drawable/ic_person"
+                    android:drawableStart="@drawable/ic_person"
                     android:drawablePadding="@dimen/dim_10"
                     android:hint="Enter Name"
                     android:inputType="textPersonName"
-                    android:paddingLeft="@dimen/dim_10"
+                    android:paddingStart="@dimen/dim_10"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -90,7 +90,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/dim_45"
                         android:background="@null"
-                        android:drawableLeft="@drawable/ic_email"
+                        android:drawableStart="@drawable/ic_email"
                         android:drawablePadding="@dimen/dim_10"
                         android:drawableTint="@color/app_color"
                         android:hint="Enter Email"
@@ -112,7 +112,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="@dimen/size10"
                     android:background="@drawable/ic_edittextbg"
-                    android:drawableLeft="@drawable/ic_mobile"
+                    android:drawableStart="@drawable/ic_mobile"
                     android:drawablePadding="@dimen/dim_10"
                     android:hint="Enter Mobile Number"
                     android:inputType="number"
@@ -124,7 +124,26 @@
 
                 </EditText>
 
+                <EditText
+                    android:textColorHint="@color/app_color"
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_45"
+                    android:layout_marginLeft="@dimen/size10"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="@dimen/size10"
+                    android:background="@drawable/ic_edittextbg"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:drawablePadding="@dimen/dim_10"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:maxLength="30"
+                    android:padding="@dimen/dim_10"
+                    android:textColor="@color/black"
+                    android:textSize="14sp">
 
+
+                </EditText>
                 <Button
                     android:id="@+id/btn_submit"
                     android:layout_width="match_parent"
